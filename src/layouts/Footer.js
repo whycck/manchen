@@ -9,7 +9,7 @@ const FooterView = () => (
       links={[
         {
           key: 'Pro 首页',
-          title: 'Pro 首页',
+          title: '首页',
           href: 'https://pro.ant.design',
           blankTarget: true,
         },
@@ -20,15 +20,15 @@ const FooterView = () => (
           blankTarget: true,
         },
         {
-          key: 'Ant Design',
-          title: 'Ant Design',
-          href: 'https://ant.design',
+          key: '后台管理系统',
+          title: '后台管理系统',
+          href: 'https://www.ahfengteng',
           blankTarget: true,
         },
       ]}
       copyright={
         <Fragment>
-          Copyright <Icon type="copyright" /> 2018 蚂蚁金服体验技术部出品
+          Copyright <Icon type="copyright" /> 安徽满辰财税
         </Fragment>
       }
     />
